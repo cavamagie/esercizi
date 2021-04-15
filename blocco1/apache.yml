@@ -14,7 +14,10 @@
       apache2_module: name=rewrite state=present
       notify:
         - restart apache2
-
+#######una volta risolto quello che non va attacca il ruolo 
+#######ansible-galaxy install geerlingguy.php
+#######una volta fatta anche l'installazione
+###### crea un ruolo come copia dei file dentro la cartella tmp
  
 
   handlers:
