@@ -1,0 +1,13 @@
+- hosts: all
+  become: yes
+  tasks:
+  - name: Ansible copy file force
+    copy:
+      src: /etc/ansible/roles/apache/tasks/file.txt
+      dest: /tmp
+      force: no
+
+  - name: Creating an empty file
+    file:
+      path: "/etc/ansible/roles/apache/tasks/file"
+      state: touch
