@@ -17,9 +17,9 @@
 #######una volta risolto quello che non va attacca il ruolo 
 #######ansible-galaxy install geerlingguy.php
 #######una volta fatta anche l'installazione
-###### crea un ruolo come copia dei file dentro la cartella tmp
- 
-
+###### crea un ruolo che 
+###### crea una cartella in tmp dove il nome è preso da una varibile 
+###### copia dei file dentro la cartella tmp
   handlers:
     - name: restart apache2
       service: name=apache2 state=restarted
