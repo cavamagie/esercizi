@@ -1,3 +1,9 @@
+Profilazione HW ABO-01
+Martedì, 21 settembre · 11:00AM – 12:00PM
+Informazioni per partecipare di Google Meet
+Link alla videochiamata: https://meet.google.com/sjh-nqoq-tkj
+Oppure digita: ‪(IT) +39 02 3046 1412‬ PIN: ‪447 354 171‬#
+Altri numeri di telefono: https://tel.meet/sjh-nqoq-tkj?pin=6405942808651
 Incontro automazione VPN
 Martedì, 21 settembre · 10:00 – 11:00AM
 Informazioni per partecipare di Google Meet
