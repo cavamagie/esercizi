@@ -1,3 +1,9 @@
+Incontro automazione VPN
+Martedì, 21 settembre · 10:00 – 11:00AM
+Informazioni per partecipare di Google Meet
+Link alla videochiamata: https://meet.google.com/kjk-tczb-rra
+Oppure digita: ‪(IT) +39 02 8732 3545‬ PIN: ‪787 688 193‬#
+Altri numeri di telefono: https://tel.meet/kjk-tczb-rra?pin=6248015710438
 https://gitlab-bper.gbbper.priv/Sistemisti/ansible-playbook-metricbeat/blob/master/README.md
 <h1> ansible-playbook-Metricbeat <h1>
 
