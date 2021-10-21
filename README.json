@@ -1182,3 +1182,8 @@
   "msg": "All items completed",
   "changed": false
 }
+
+
+
+
+results[*].ansible_facts.logical_interconnect_groups[*].uplinkSets[*].networkUris[? networkType==Ethernet ]
