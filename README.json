@@ -1,0 +1,1184 @@
+{
+  "results": [
+    {
+      "changed": false,
+      "ansible_facts": {
+        "logical_interconnect_groups": [
+          {
+            "type": "logical-interconnect-groupV8",
+            "uri": "/rest/logical-interconnect-groups/e3ee548e-717e-4d93-a60c-50b697c20a67",
+            "category": "logical-interconnect-groups",
+            "eTag": "ef9ffa34-d2e6-4bd8-b783-d40027e506c9",
+            "created": "2021-09-07T07:29:48.790Z",
+            "modified": "2021-10-20T16:12:17.439Z",
+            "scopesUri": "/rest/scopes/resources/rest/logical-interconnect-groups/e3ee548e-717e-4d93-a60c-50b697c20a67",
+            "uplinkSets": [
+              {
+                "networkType": "Ethernet",
+                "networkUris": [
+                  "/rest/ethernet-networks/41c7e98b-c802-4a06-8b6d-78656a329921",
+                  "/rest/ethernet-networks/fd3a9215-0610-416d-b12d-e3e02fb916d4",
+                  "/rest/ethernet-networks/35c6ae9c-028a-4d9a-a2a7-a9658bc62c4e",
+                  "/rest/ethernet-networks/ad776b22-69fd-48c3-9a15-623087b83f91",
+                  "/rest/ethernet-networks/1c6f6071-6dd7-4fa9-ac3c-9f592f8bce32",
+                  "/rest/ethernet-networks/b3189669-d529-4f54-a585-1bb1909477c1",
+                  "/rest/ethernet-networks/0470946b-34e0-43d8-9540-5b936b50409e",
+                  "/rest/ethernet-networks/27af14c2-105a-4955-84c5-319552c3ba3e",
+                  "/rest/ethernet-networks/4b6ba3da-7e0d-4851-a009-a2fe35ac1a76",
+                  "/rest/ethernet-networks/22f6670f-e717-4770-b80d-b450b7ad19ca",
+                  "/rest/ethernet-networks/08ae5e96-e368-4daf-853f-7331446e91a3",
+                  "/rest/ethernet-networks/c5ca1533-74b9-4acb-b254-076ee14e77cd",
+                  "/rest/ethernet-networks/99b1a8eb-0cc2-445e-b227-f2210e75d279",
+                  "/rest/ethernet-networks/028cad16-7831-4810-bb11-39265e876304",
+                  "/rest/ethernet-networks/4b29fc71-dee1-4d69-bc6b-6da55995f44a",
+                  "/rest/ethernet-networks/2f31e7d8-08ff-4772-a04a-ea11b839067b",
+                  "/rest/ethernet-networks/9cd6c126-9c43-4c29-8694-eeed86a4c15e",
+                  "/rest/ethernet-networks/7a7312bb-9ec0-4b40-8209-15a8d54f1d79"
+                ],
+                "nativeNetworkUri": null,
+                "mode": "Auto",
+                "fcMode": "NA",
+                "primaryPort": null,
+                "name": "UPLINK_LAN_1",
+                "reachability": null,
+                "logicalPortConfigInfos": [
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 3
+                        },
+                        {
+                          "type": "Port",
+                          "relativeValue": 72
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed10G",
+                    "desiredFecMode": "Auto"
+                  },
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Port",
+                          "relativeValue": 77
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 3
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed10G",
+                    "desiredFecMode": "Auto"
+                  }
+                ],
+                "ethernetNetworkType": "Tagged",
+                "lacpTimer": "Short",
+                "privateVlanDomains": [],
+                "loadBalancingMode": "SourceAndDestinationMac",
+                "consistencyChecking": "ExactMatch",
+                "networkSetUris": [],
+                "failoverActiveMemberThreshold": 4,
+                "failoverBandwidthThreshold": 50,
+                "failoverType": "AllActiveUplinksOffline",
+                "lagPortBalance": "Disabled"
+              },
+              {
+                "networkType": "FibreChannel",
+                "networkUris": [
+                  "/rest/fc-networks/63fd1c13-f23c-48a8-90e4-86f8d204caec"
+                ],
+                "nativeNetworkUri": null,
+                "mode": "Auto",
+                "fcMode": "NA",
+                "primaryPort": null,
+                "name": "UPLINK_SAN_1",
+                "reachability": null,
+                "logicalPortConfigInfos": [
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Port",
+                          "relativeValue": 67
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 3
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed8G",
+                    "desiredFecMode": "Auto"
+                  },
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Port",
+                          "relativeValue": 62
+                        },
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 3
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed8G",
+                    "desiredFecMode": "Auto"
+                  }
+                ],
+                "ethernetNetworkType": "NotApplicable",
+                "lacpTimer": null,
+                "privateVlanDomains": [],
+                "loadBalancingMode": "None",
+                "consistencyChecking": "ExactMatch",
+                "networkSetUris": [],
+                "failoverActiveMemberThreshold": 0,
+                "failoverBandwidthThreshold": 0,
+                "failoverType": "None",
+                "lagPortBalance": "None"
+              }
+            ],
+            "interconnectMapTemplate": {
+              "interconnectMapEntryTemplates": [
+                {
+                  "logicalLocation": {
+                    "locationEntries": [
+                      {
+                        "type": "Enclosure",
+                        "relativeValue": 1
+                      },
+                      {
+                        "type": "Bay",
+                        "relativeValue": 3
+                      }
+                    ]
+                  },
+                  "logicalDownlinkUri": "/rest/logical-downlinks/01540378-1aa8-4b97-aca6-8da807294768",
+                  "permittedInterconnectTypeUri": "/rest/interconnect-types/eb542a61-a760-4ce7-80a4-94c44b929adf",
+                  "enclosureIndex": 1
+                }
+              ]
+            },
+            "stackingMode": null,
+            "stackingHealth": null,
+            "ethernetSettings": {
+              "type": "EthernetInterconnectSettingsV7",
+              "uri": "/rest/logical-interconnect-groups/e3ee548e-717e-4d93-a60c-50b697c20a67/settings",
+              "category": null,
+              "eTag": null,
+              "created": "2021-09-07T07:29:48.790Z",
+              "modified": "2021-10-20T16:12:17.200Z",
+              "id": "8c55ed7d-4bce-4239-b87e-0d4264283dae",
+              "name": "name-1431522073-1630999788790",
+              "interconnectType": "Ethernet",
+              "enableFastMacCacheFailover": true,
+              "macRefreshInterval": 5,
+              "enableNetworkLoopProtection": true,
+              "dependentResourceUri": "/rest/logical-interconnect-groups/e3ee548e-717e-4d93-a60c-50b697c20a67",
+              "enablePauseFloodProtection": true,
+              "enableCutThrough": false,
+              "enableInterconnectUtilizationAlert": false,
+              "enableRichTLV": false,
+              "enableTaggedLldp": false,
+              "enableDdns": false,
+              "domainName": "",
+              "lldpIpv4Address": "",
+              "lldpIpv6Address": "",
+              "lldpIpAddressMode": "IPV4",
+              "enableStormControl": false,
+              "stormControlThreshold": 0,
+              "stormControlPollingInterval": 10,
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "state": null,
+              "status": null
+            },
+            "igmpSettings": {
+              "type": "IgmpSettings",
+              "uri": "/rest/logical-interconnect-groups/e3ee548e-717e-4d93-a60c-50b697c20a67/igmpSettings",
+              "category": null,
+              "eTag": null,
+              "created": null,
+              "modified": null,
+              "id": "aca654bf-8d98-4012-8b78-82ee143f1378",
+              "name": "name-1085174728-1630999788790",
+              "enableIgmpSnooping": false,
+              "enableProxyReporting": true,
+              "enablePreventFlooding": false,
+              "dependentResourceUri": "/rest/logical-interconnect-groups/e3ee548e-717e-4d93-a60c-50b697c20a67",
+              "igmpIdleTimeoutInterval": 260,
+              "igmpSnoopingVlanIds": "",
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "state": null,
+              "status": null
+            },
+            "telemetryConfiguration": {
+              "type": "CanonicalTelemetryConfiguration",
+              "uri": null,
+              "category": "telemetry-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:29:48.803Z",
+              "modified": "2021-09-07T07:29:48.803Z",
+              "enableTelemetry": true,
+              "sampleInterval": 300,
+              "sampleCount": 12,
+              "vcfcsampleIntervals": null,
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "snmpConfiguration": {
+              "type": "snmp-configuration",
+              "uri": null,
+              "category": "snmp-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:29:48.791Z",
+              "modified": "2021-09-07T07:29:48.791Z",
+              "enabled": false,
+              "v3Enabled": true,
+              "systemContact": "",
+              "readCommunity": "",
+              "trapDestinations": [],
+              "snmpAccess": [],
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null,
+              "snmpUsers": []
+            },
+            "enclosureType": "SY12000",
+            "internalNetworkUris": [],
+            "consistencyCheckingForInternalNetworks": "ExactMatch",
+            "fabricUri": "/rest/fabrics/53073f64-f258-42f8-8c13-bce33162c538",
+            "enclosureIndexes": [
+              1
+            ],
+            "interconnectBaySet": 3,
+            "redundancyType": "NonRedundantASide",
+            "qosConfiguration": {
+              "type": "qos-aggregated-configuration",
+              "uri": null,
+              "category": "qos-aggregated-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:29:48.791Z",
+              "modified": "2021-09-07T07:29:48.791Z",
+              "activeQosConfig": {
+                "type": "QosConfiguration",
+                "uri": null,
+                "category": "qos-aggregated-configuration",
+                "eTag": null,
+                "created": null,
+                "modified": null,
+                "configType": "CustomWithFCoEWithRoCE",
+                "uplinkClassificationType": "DOT1P",
+                "downlinkClassificationType": "DOT1P",
+                "qosTrafficClassifiers": [
+                  {
+                    "qosTrafficClass": {
+                      "className": "Medium",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Real time",
+                      "realTime": true,
+                      "bandwidthShare": "10",
+                      "maxBandwidth": 10,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 5",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Best effort",
+                      "realTime": false,
+                      "bandwidthShare": "100",
+                      "maxBandwidth": 100,
+                      "enabled": true,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": {
+                      "dot1pClassMapping": [
+                        1,
+                        0,
+                        4,
+                        2,
+                        5,
+                        6,
+                        7,
+                        3
+                      ],
+                      "dscpClassMapping": [
+                        "DSCP 40, CS5",
+                        "DSCP 48, CS6",
+                        "DSCP 56, CS7",
+                        "DSCP 0, CS0",
+                        "DSCP 8, CS1",
+                        "DSCP 10, AF11",
+                        "DSCP 12, AF12",
+                        "DSCP 14, AF13",
+                        "DSCP 16, CS2",
+                        "DSCP 18, AF21",
+                        "DSCP 20, AF22",
+                        "DSCP 22, AF23",
+                        "DSCP 24, CS3",
+                        "DSCP 26, AF31",
+                        "DSCP 28, AF32",
+                        "DSCP 30, AF33",
+                        "DSCP 32, CS4",
+                        "DSCP 34, AF41",
+                        "DSCP 36, AF42",
+                        "DSCP 38, AF43",
+                        "DSCP 46, EF"
+                      ]
+                    }
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 3",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 1",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 4",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "RoCE lossless",
+                      "realTime": false,
+                      "bandwidthShare": "roce",
+                      "maxBandwidth": 100,
+                      "enabled": true,
+                      "egressDot1pValue": 5,
+                      "roce": true,
+                      "dcbxConfiguration": {
+                        "applicationProtocol": "RoCEv1, RoCEv2",
+                        "priorityFlowControl": "5",
+                        "priorityCodePoint": "5",
+                        "defaultMinimumBandwidth": "50",
+                        "defaultMaximumBandwidth": "100",
+                        "dcbxEtsPorts": null
+                      }
+                    },
+                    "qosClassificationMapping": {
+                      "dot1pClassMapping": [
+                        5
+                      ],
+                      "dscpClassMapping": []
+                    }
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 2",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "FCoE lossless",
+                      "realTime": false,
+                      "bandwidthShare": "fcoe",
+                      "maxBandwidth": 100,
+                      "enabled": true,
+                      "egressDot1pValue": 3,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": {
+                      "dot1pClassMapping": [
+                        3
+                      ],
+                      "dscpClassMapping": []
+                    }
+                  }
+                ],
+                "description": null,
+                "name": null,
+                "state": null,
+                "status": null
+              },
+              "inactiveFCoEQosConfig": null,
+              "inactiveNonFCoEQosConfig": null,
+              "inactiveRoceQosConfig": null,
+              "inactiveFcoeRoceQosConfig": null,
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "sflowConfiguration": {
+              "type": "sflow-configuration",
+              "uri": null,
+              "category": "sflow-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:29:48.793Z",
+              "modified": "2021-09-07T07:29:48.793Z",
+              "enabled": false,
+              "sflowAgents": [],
+              "sflowNetwork": null,
+              "consistencyChecking": "ExactMatch",
+              "sflowCollectors": [],
+              "sflowPorts": [],
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "downlinkSpeedMode": "SPEED_50GB",
+            "ntpConfiguration": {
+              "type": "ntp-configuration",
+              "uri": null,
+              "category": "ntp-configuration",
+              "eTag": null,
+              "created": null,
+              "modified": null,
+              "custom": false,
+              "timeZone": "",
+              "protocolType": "Sntp",
+              "authProtocol": "None",
+              "authId": 1,
+              "authKey": null,
+              "clientVersion": "V4",
+              "clockFormat": "Twentyfour_Hours",
+              "dstStartTime": "",
+              "dstEndTime": "",
+              "consistencyChecking": "ExactMatch",
+              "addressingMode": {
+                "addressingMode": "Unicast",
+                "pollTimeout": 1,
+                "pollRetry": 1,
+                "delayTime": 1000,
+                "sendRequest": true,
+                "pollInterval": 16,
+                "serverAutoDiscovery": true,
+                "groupAddress": null
+              },
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "portFlapProtection": {
+              "type": "portFlapProtection",
+              "uri": null,
+              "category": null,
+              "eTag": null,
+              "created": null,
+              "modified": null,
+              "id": "c71e7aa5-cb43-4699-aacf-258f5674201a",
+              "name": "name2147414944-1630999788793",
+              "detectionInterval": 30,
+              "portFlapThresholdPerInterval": 3,
+              "noOfSamplesDeclareFailures": 3,
+              "consistencyChecking": "ExactMatch",
+              "portFlapProtectionMode": "None",
+              "description": null,
+              "state": null,
+              "status": null
+            },
+            "description": null,
+            "name": "BL10XMO2-LIG1",
+            "state": "Active",
+            "status": null
+          }
+        ]
+      },
+      "invocation": {
+        "module_args": {
+          "config": "config.json",
+          "name": "BL10XMO2-LIG1",
+          "api_version": null,
+          "hostname": null,
+          "image_streamer_hostname": null,
+          "password": null,
+          "username": null,
+          "auth_login_domain": null,
+          "params": null
+        }
+      },
+      "failed": false,
+      "item": "BL10XMO2-LIG1",
+      "ansible_loop_var": "item"
+    },
+    {
+      "changed": false,
+      "ansible_facts": {
+        "logical_interconnect_groups": [
+          {
+            "type": "logical-interconnect-groupV8",
+            "uri": "/rest/logical-interconnect-groups/7333f5b5-7c8d-4fdc-821b-6974a5d0a8a1",
+            "category": "logical-interconnect-groups",
+            "eTag": "f8c27eee-616b-402d-b595-d9b2c39540ac",
+            "created": "2021-09-07T07:30:50.618Z",
+            "modified": "2021-10-20T16:12:37.539Z",
+            "scopesUri": "/rest/scopes/resources/rest/logical-interconnect-groups/7333f5b5-7c8d-4fdc-821b-6974a5d0a8a1",
+            "uplinkSets": [
+              {
+                "networkType": "Ethernet",
+                "networkUris": [
+                  "/rest/ethernet-networks/41c7e98b-c802-4a06-8b6d-78656a329921",
+                  "/rest/ethernet-networks/fd3a9215-0610-416d-b12d-e3e02fb916d4",
+                  "/rest/ethernet-networks/35c6ae9c-028a-4d9a-a2a7-a9658bc62c4e",
+                  "/rest/ethernet-networks/ad776b22-69fd-48c3-9a15-623087b83f91",
+                  "/rest/ethernet-networks/1c6f6071-6dd7-4fa9-ac3c-9f592f8bce32",
+                  "/rest/ethernet-networks/b3189669-d529-4f54-a585-1bb1909477c1",
+                  "/rest/ethernet-networks/0470946b-34e0-43d8-9540-5b936b50409e",
+                  "/rest/ethernet-networks/27af14c2-105a-4955-84c5-319552c3ba3e",
+                  "/rest/ethernet-networks/4b6ba3da-7e0d-4851-a009-a2fe35ac1a76",
+                  "/rest/ethernet-networks/22f6670f-e717-4770-b80d-b450b7ad19ca",
+                  "/rest/ethernet-networks/08ae5e96-e368-4daf-853f-7331446e91a3",
+                  "/rest/ethernet-networks/c5ca1533-74b9-4acb-b254-076ee14e77cd",
+                  "/rest/ethernet-networks/99b1a8eb-0cc2-445e-b227-f2210e75d279",
+                  "/rest/ethernet-networks/028cad16-7831-4810-bb11-39265e876304",
+                  "/rest/ethernet-networks/4b29fc71-dee1-4d69-bc6b-6da55995f44a",
+                  "/rest/ethernet-networks/2f31e7d8-08ff-4772-a04a-ea11b839067b",
+                  "/rest/ethernet-networks/9cd6c126-9c43-4c29-8694-eeed86a4c15e",
+                  "/rest/ethernet-networks/7a7312bb-9ec0-4b40-8209-15a8d54f1d79"
+                ],
+                "nativeNetworkUri": null,
+                "mode": "Auto",
+                "fcMode": "NA",
+                "primaryPort": null,
+                "name": "UPLINK_LAN_2",
+                "reachability": null,
+                "logicalPortConfigInfos": [
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Port",
+                          "relativeValue": 72
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 6
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed10G",
+                    "desiredFecMode": "Auto"
+                  },
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Port",
+                          "relativeValue": 77
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 6
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed10G",
+                    "desiredFecMode": "Auto"
+                  }
+                ],
+                "ethernetNetworkType": "Tagged",
+                "lacpTimer": "Short",
+                "privateVlanDomains": [],
+                "loadBalancingMode": "SourceAndDestinationMac",
+                "consistencyChecking": "ExactMatch",
+                "networkSetUris": [],
+                "failoverActiveMemberThreshold": 4,
+                "failoverBandwidthThreshold": 50,
+                "failoverType": "AllActiveUplinksOffline",
+                "lagPortBalance": "Disabled"
+              },
+              {
+                "networkType": "FibreChannel",
+                "networkUris": [
+                  "/rest/fc-networks/53abc004-81da-4755-9ed8-9f2ca857bb16"
+                ],
+                "nativeNetworkUri": null,
+                "mode": "Auto",
+                "fcMode": "NA",
+                "primaryPort": null,
+                "name": "UPLINK_SAN_2",
+                "reachability": null,
+                "logicalPortConfigInfos": [
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Port",
+                          "relativeValue": 67
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 6
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed8G",
+                    "desiredFecMode": "Auto"
+                  },
+                  {
+                    "logicalLocation": {
+                      "locationEntries": [
+                        {
+                          "type": "Port",
+                          "relativeValue": 62
+                        },
+                        {
+                          "type": "Enclosure",
+                          "relativeValue": 1
+                        },
+                        {
+                          "type": "Bay",
+                          "relativeValue": 6
+                        }
+                      ]
+                    },
+                    "desiredSpeed": "Speed8G",
+                    "desiredFecMode": "Auto"
+                  }
+                ],
+                "ethernetNetworkType": "NotApplicable",
+                "lacpTimer": null,
+                "privateVlanDomains": [],
+                "loadBalancingMode": "None",
+                "consistencyChecking": "ExactMatch",
+                "networkSetUris": [],
+                "failoverActiveMemberThreshold": 0,
+                "failoverBandwidthThreshold": 0,
+                "failoverType": "None",
+                "lagPortBalance": "None"
+              }
+            ],
+            "interconnectMapTemplate": {
+              "interconnectMapEntryTemplates": [
+                {
+                  "logicalLocation": {
+                    "locationEntries": [
+                      {
+                        "type": "Enclosure",
+                        "relativeValue": 1
+                      },
+                      {
+                        "type": "Bay",
+                        "relativeValue": 6
+                      }
+                    ]
+                  },
+                  "logicalDownlinkUri": "/rest/logical-downlinks/f36daef5-68d8-43ed-88cc-43f48b64c5ab",
+                  "permittedInterconnectTypeUri": "/rest/interconnect-types/eb542a61-a760-4ce7-80a4-94c44b929adf",
+                  "enclosureIndex": 1
+                }
+              ]
+            },
+            "stackingMode": null,
+            "stackingHealth": null,
+            "ethernetSettings": {
+              "type": "EthernetInterconnectSettingsV7",
+              "uri": "/rest/logical-interconnect-groups/7333f5b5-7c8d-4fdc-821b-6974a5d0a8a1/settings",
+              "category": null,
+              "eTag": null,
+              "created": "2021-09-07T07:30:50.618Z",
+              "modified": "2021-10-20T16:12:37.421Z",
+              "id": "8e6cdcb9-ed5e-481c-950e-cc4cbace6c36",
+              "name": "name-2129356776-1630999850618",
+              "interconnectType": "Ethernet",
+              "enableFastMacCacheFailover": true,
+              "macRefreshInterval": 5,
+              "enableNetworkLoopProtection": true,
+              "dependentResourceUri": "/rest/logical-interconnect-groups/7333f5b5-7c8d-4fdc-821b-6974a5d0a8a1",
+              "enablePauseFloodProtection": true,
+              "enableCutThrough": false,
+              "enableInterconnectUtilizationAlert": false,
+              "enableRichTLV": false,
+              "enableTaggedLldp": false,
+              "enableDdns": false,
+              "domainName": "",
+              "lldpIpv4Address": "",
+              "lldpIpv6Address": "",
+              "lldpIpAddressMode": "IPV4",
+              "enableStormControl": false,
+              "stormControlThreshold": 0,
+              "stormControlPollingInterval": 10,
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "state": null,
+              "status": null
+            },
+            "igmpSettings": {
+              "type": "IgmpSettings",
+              "uri": "/rest/logical-interconnect-groups/7333f5b5-7c8d-4fdc-821b-6974a5d0a8a1/igmpSettings",
+              "category": null,
+              "eTag": null,
+              "created": null,
+              "modified": null,
+              "id": "6f817af8-8aa1-4e4f-ad2f-77dbfd6ea5bc",
+              "name": "name649290096-1630999850618",
+              "enableIgmpSnooping": false,
+              "enableProxyReporting": true,
+              "enablePreventFlooding": false,
+              "dependentResourceUri": "/rest/logical-interconnect-groups/7333f5b5-7c8d-4fdc-821b-6974a5d0a8a1",
+              "igmpIdleTimeoutInterval": 260,
+              "igmpSnoopingVlanIds": "",
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "state": null,
+              "status": null
+            },
+            "telemetryConfiguration": {
+              "type": "CanonicalTelemetryConfiguration",
+              "uri": null,
+              "category": "telemetry-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:30:50.628Z",
+              "modified": "2021-09-07T07:30:50.628Z",
+              "enableTelemetry": true,
+              "sampleInterval": 300,
+              "sampleCount": 12,
+              "vcfcsampleIntervals": null,
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "snmpConfiguration": {
+              "type": "snmp-configuration",
+              "uri": null,
+              "category": "snmp-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:30:50.619Z",
+              "modified": "2021-09-07T07:30:50.619Z",
+              "enabled": false,
+              "v3Enabled": true,
+              "systemContact": "",
+              "readCommunity": "",
+              "trapDestinations": [],
+              "snmpAccess": [],
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null,
+              "snmpUsers": []
+            },
+            "enclosureType": "SY12000",
+            "internalNetworkUris": [],
+            "consistencyCheckingForInternalNetworks": "ExactMatch",
+            "fabricUri": "/rest/fabrics/53073f64-f258-42f8-8c13-bce33162c538",
+            "enclosureIndexes": [
+              1
+            ],
+            "interconnectBaySet": 3,
+            "redundancyType": "NonRedundantBSide",
+            "qosConfiguration": {
+              "type": "qos-aggregated-configuration",
+              "uri": null,
+              "category": "qos-aggregated-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:30:50.619Z",
+              "modified": "2021-09-07T07:30:50.619Z",
+              "activeQosConfig": {
+                "type": "QosConfiguration",
+                "uri": null,
+                "category": "qos-aggregated-configuration",
+                "eTag": null,
+                "created": null,
+                "modified": null,
+                "configType": "CustomWithFCoEWithRoCE",
+                "uplinkClassificationType": "DOT1P",
+                "downlinkClassificationType": "DOT1P",
+                "qosTrafficClassifiers": [
+                  {
+                    "qosTrafficClass": {
+                      "className": "Medium",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Real time",
+                      "realTime": true,
+                      "bandwidthShare": "10",
+                      "maxBandwidth": 10,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 1",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 5",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 3",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 4",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "RoCE lossless",
+                      "realTime": false,
+                      "bandwidthShare": "roce",
+                      "maxBandwidth": 100,
+                      "enabled": true,
+                      "egressDot1pValue": 5,
+                      "roce": true,
+                      "dcbxConfiguration": {
+                        "applicationProtocol": "RoCEv1, RoCEv2",
+                        "priorityFlowControl": "5",
+                        "priorityCodePoint": "5",
+                        "defaultMinimumBandwidth": "50",
+                        "defaultMaximumBandwidth": "100",
+                        "dcbxEtsPorts": null
+                      }
+                    },
+                    "qosClassificationMapping": {
+                      "dot1pClassMapping": [
+                        5
+                      ],
+                      "dscpClassMapping": []
+                    }
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Class 2",
+                      "realTime": false,
+                      "bandwidthShare": "0",
+                      "maxBandwidth": 100,
+                      "enabled": false,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": null
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "FCoE lossless",
+                      "realTime": false,
+                      "bandwidthShare": "fcoe",
+                      "maxBandwidth": 100,
+                      "enabled": true,
+                      "egressDot1pValue": 3,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": {
+                      "dot1pClassMapping": [
+                        3
+                      ],
+                      "dscpClassMapping": []
+                    }
+                  },
+                  {
+                    "qosTrafficClass": {
+                      "className": "Best effort",
+                      "realTime": false,
+                      "bandwidthShare": "100",
+                      "maxBandwidth": 100,
+                      "enabled": true,
+                      "egressDot1pValue": 0,
+                      "roce": false,
+                      "dcbxConfiguration": null
+                    },
+                    "qosClassificationMapping": {
+                      "dot1pClassMapping": [
+                        1,
+                        0,
+                        4,
+                        2,
+                        5,
+                        6,
+                        7,
+                        3
+                      ],
+                      "dscpClassMapping": [
+                        "DSCP 48, CS6",
+                        "DSCP 56, CS7",
+                        "DSCP 0, CS0",
+                        "DSCP 8, CS1",
+                        "DSCP 10, AF11",
+                        "DSCP 12, AF12",
+                        "DSCP 14, AF13",
+                        "DSCP 16, CS2",
+                        "DSCP 18, AF21",
+                        "DSCP 20, AF22",
+                        "DSCP 22, AF23",
+                        "DSCP 24, CS3",
+                        "DSCP 26, AF31",
+                        "DSCP 28, AF32",
+                        "DSCP 30, AF33",
+                        "DSCP 32, CS4",
+                        "DSCP 34, AF41",
+                        "DSCP 36, AF42",
+                        "DSCP 38, AF43",
+                        "DSCP 46, EF",
+                        "DSCP 40, CS5"
+                      ]
+                    }
+                  }
+                ],
+                "description": null,
+                "name": null,
+                "state": null,
+                "status": null
+              },
+              "inactiveFCoEQosConfig": null,
+              "inactiveNonFCoEQosConfig": null,
+              "inactiveRoceQosConfig": null,
+              "inactiveFcoeRoceQosConfig": null,
+              "consistencyChecking": "ExactMatch",
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "sflowConfiguration": {
+              "type": "sflow-configuration",
+              "uri": null,
+              "category": "sflow-configuration",
+              "eTag": null,
+              "created": "2021-09-07T07:30:50.621Z",
+              "modified": "2021-09-07T07:30:50.621Z",
+              "enabled": false,
+              "sflowAgents": [],
+              "sflowNetwork": null,
+              "consistencyChecking": "ExactMatch",
+              "sflowCollectors": [],
+              "sflowPorts": [],
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "downlinkSpeedMode": "SPEED_50GB",
+            "ntpConfiguration": {
+              "type": "ntp-configuration",
+              "uri": null,
+              "category": "ntp-configuration",
+              "eTag": null,
+              "created": null,
+              "modified": null,
+              "custom": false,
+              "timeZone": "",
+              "protocolType": "Sntp",
+              "authProtocol": "None",
+              "authId": 1,
+              "authKey": null,
+              "clientVersion": "V4",
+              "clockFormat": "Twentyfour_Hours",
+              "dstStartTime": "",
+              "dstEndTime": "",
+              "consistencyChecking": "ExactMatch",
+              "addressingMode": {
+                "addressingMode": "Unicast",
+                "pollTimeout": 1,
+                "pollRetry": 1,
+                "delayTime": 1000,
+                "sendRequest": true,
+                "pollInterval": 16,
+                "serverAutoDiscovery": true,
+                "groupAddress": null
+              },
+              "description": null,
+              "name": null,
+              "state": null,
+              "status": null
+            },
+            "portFlapProtection": {
+              "type": "portFlapProtection",
+              "uri": null,
+              "category": null,
+              "eTag": null,
+              "created": null,
+              "modified": null,
+              "id": "04c5c717-a581-4c6d-ac32-3cfdd516a55b",
+              "name": "name192037591-1630999850621",
+              "detectionInterval": 30,
+              "portFlapThresholdPerInterval": 3,
+              "noOfSamplesDeclareFailures": 3,
+              "consistencyChecking": "ExactMatch",
+              "portFlapProtectionMode": "None",
+              "description": null,
+              "state": null,
+              "status": null
+            },
+            "description": null,
+            "name": "BL10XMO2-LIG2",
+            "state": "Active",
+            "status": null
+          }
+        ]
+      },
+      "invocation": {
+        "module_args": {
+          "config": "config.json",
+          "name": "BL10XMO2-LIG2",
+          "api_version": null,
+          "hostname": null,
+          "image_streamer_hostname": null,
+          "password": null,
+          "username": null,
+          "auth_login_domain": null,
+          "params": null
+        }
+      },
+      "failed": false,
+      "item": "BL10XMO2-LIG2",
+      "ansible_loop_var": "item"
+    }
+  ],
+  "msg": "All items completed",
+  "changed": false
+}
